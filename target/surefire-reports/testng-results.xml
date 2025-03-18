@@ -1,0 +1,813 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="14" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[----Execution Started----]]>
+    </line>
+    <line>
+      <![CDATA[CreateContacttestcase Started]]>
+    </line>
+    <line>
+      <![CDATA[CreateContacttestcase Started]]>
+    </line>
+    <line>
+      <![CDATA[CreateContacttestcase Started]]>
+    </line>
+    <line>
+      <![CDATA[moveToCalendarPagetestcase Started]]>
+    </line>
+    <line>
+      <![CDATA[moveToContactsPagetestcase Started]]>
+    </line>
+    <line>
+      <![CDATA[moveToLeadsPagetestcase Started]]>
+    </line>
+    <line>
+      <![CDATA[moveToOrganizationPagetestcase Started]]>
+    </line>
+    <line>
+      <![CDATA[----Execution Finished----]]>
+    </line>
+    <line>
+      <![CDATA[----Execution Started----]]>
+    </line>
+    <line>
+      <![CDATA[CreateContacttestcase Started]]>
+    </line>
+    <line>
+      <![CDATA[CreateContacttestcase Started]]>
+    </line>
+    <line>
+      <![CDATA[CreateContacttestcase Started]]>
+    </line>
+    <line>
+      <![CDATA[moveToCalendarPagetestcase Started]]>
+    </line>
+    <line>
+      <![CDATA[moveToContactsPagetestcase Started]]>
+    </line>
+    <line>
+      <![CDATA[moveToLeadsPagetestcase Started]]>
+    </line>
+    <line>
+      <![CDATA[moveToOrganizationPagetestcase Started]]>
+    </line>
+    <line>
+      <![CDATA[OrganizationTesttestcase Started]]>
+    </line>
+    <line>
+      <![CDATA[OrganizationTesttestcase Failed]]>
+    </line>
+    <line>
+      <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id: session deleted as the browser has closed the connection
+from disconnected: Unable to receive message from renderer
+  (Session info: MicrosoftEdge=134.0.3124.72)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [319566453fba3adb5d719d5f2f6f1348, findElement {value=Organizations, using=link text}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 134.0.3124.72, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55143}, msedge: {msedgedriverVersion: 134.0.3124.72 (c81e2c3854de..., userDataDir: C:\Windows\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55143/devtoo..., se:cdpVersion: 134.0.3124.72, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 319566453fba3adb5d719d5f2f6f1348]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-03-17T13:10:52 IST" name="Suite" finished-at="2025-03-17T13:13:38 IST" duration-ms="166144">
+    <groups>
+      <group name="integration">
+        <method signature="AttributeTest.moveToLeadsPage()[pri:0, instance:TestPackage.AttributeTest@229f66ed]" name="moveToLeadsPage" class="TestPackage.AttributeTest"/>
+        <method signature="AttributeTest.moveToOrganizationPage()[pri:0, instance:TestPackage.AttributeTest@229f66ed]" name="moveToOrganizationPage" class="TestPackage.AttributeTest"/>
+      </group> <!-- integration -->
+      <group name="smoke">
+        <method signature="AttributeTest.moveToCalendarPage()[pri:0, instance:TestPackage.AttributeTest@229f66ed]" name="moveToCalendarPage" class="TestPackage.AttributeTest"/>
+      </group> <!-- smoke -->
+      <group name="adhoc">
+        <method signature="AttributeTest.moveToContactsPage()[pri:0, instance:TestPackage.AttributeTest@229f66ed]" name="moveToContactsPage" class="TestPackage.AttributeTest"/>
+      </group> <!-- adhoc -->
+    </groups>
+    <test started-at="2025-03-17T13:10:52 IST" name="SuiteTest" finished-at="2025-03-17T13:13:38 IST" duration-ms="166144">
+      <class name="TestPackage.ContactTest">
+        <test-method is-config="true" signature="login()[pri:0, instance:TestPackage.ContactTest@7dcf94f8]" started-at="2025-03-17T13:10:52 IST" name="login" finished-at="2025-03-17T13:11:01 IST" duration-ms="8386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="CreateContact(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestPackage.ContactTest@7dcf94f8]" started-at="2025-03-17T13:11:01 IST" name="CreateContact" data-provider="databaseContactDetails" finished-at="2025-03-17T13:11:14 IST" duration-ms="13644" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ms.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hannah]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sjk]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Self Generated]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Electronics]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Engineer]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[hannah@gmail.com]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[9897554236]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[CreateContacttestcase Started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CreateContact -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:TestPackage.ContactTest@7dcf94f8]" started-at="2025-03-17T13:11:14 IST" name="logout" finished-at="2025-03-17T13:11:18 IST" duration-ms="3517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:TestPackage.ContactTest@7dcf94f8]" started-at="2025-03-17T13:11:18 IST" name="login" finished-at="2025-03-17T13:11:23 IST" duration-ms="5510" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="CreateContact(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestPackage.ContactTest@7dcf94f8]" started-at="2025-03-17T13:11:23 IST" name="CreateContact" data-provider="databaseContactDetails" finished-at="2025-03-17T13:11:43 IST" duration-ms="19292" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mr.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Harris]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[tjk]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Self Generated]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Mechanical]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Engineer]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[harris@gmail.com]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[9897567236]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[CreateContacttestcase Started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CreateContact -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:TestPackage.ContactTest@7dcf94f8]" started-at="2025-03-17T13:11:43 IST" name="logout" finished-at="2025-03-17T13:11:48 IST" duration-ms="4966" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:TestPackage.ContactTest@7dcf94f8]" started-at="2025-03-17T13:11:48 IST" name="login" finished-at="2025-03-17T13:11:58 IST" duration-ms="10508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="CreateContact(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestPackage.ContactTest@7dcf94f8]" started-at="2025-03-17T13:11:58 IST" name="CreateContact" data-provider="databaseContactDetails" finished-at="2025-03-17T13:12:15 IST" duration-ms="17139" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ms.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Helen]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[tjk]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Self Generated]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[biomedical]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Engineer]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[helen@gmail.com]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[9877554236]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[CreateContacttestcase Started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CreateContact -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:TestPackage.ContactTest@7dcf94f8]" started-at="2025-03-17T13:12:15 IST" name="logout" finished-at="2025-03-17T13:12:19 IST" duration-ms="3383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- TestPackage.ContactTest -->
+      <class name="TestPackage.OrganizationTest">
+        <test-method is-config="true" signature="login()[pri:0, instance:TestPackage.OrganizationTest@31190526]" started-at="2025-03-17T13:13:33 IST" name="login" finished-at="2025-03-17T13:13:38 IST" duration-ms="4577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="OrganizationTest()[pri:0, instance:TestPackage.OrganizationTest@31190526]" started-at="2025-03-17T13:13:38 IST" name="OrganizationTest" finished-at="2025-03-17T13:13:38 IST" duration-ms="629" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[invalid session id: session deleted as the browser has closed the connection
+from disconnected: Unable to receive message from renderer
+  (Session info: MicrosoftEdge=134.0.3124.72)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [319566453fba3adb5d719d5f2f6f1348, findElement {value=Organizations, using=link text}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 134.0.3124.72, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55143}, msedge: {msedgedriverVersion: 134.0.3124.72 (c81e2c3854de..., userDataDir: C:\Windows\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55143/devtoo..., se:cdpVersion: 134.0.3124.72, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 319566453fba3adb5d719d5f2f6f1348]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id: session deleted as the browser has closed the connection
+from disconnected: Unable to receive message from renderer
+  (Session info: MicrosoftEdge=134.0.3124.72)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [319566453fba3adb5d719d5f2f6f1348, findElement {value=Organizations, using=link text}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 134.0.3124.72, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55143}, msedge: {msedgedriverVersion: 134.0.3124.72 (c81e2c3854de..., userDataDir: C:\Windows\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55143/devtoo..., se:cdpVersion: 134.0.3124.72, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 319566453fba3adb5d719d5f2f6f1348
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
+at ObjectRepository.HomePage.ClickOrganization(HomePage.java:47)
+at TestPackage.OrganizationTest.OrganizationTest(OrganizationTest.java:11)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+            <line>
+              <![CDATA[OrganizationTesttestcase Started]]>
+            </line>
+            <line>
+              <![CDATA[OrganizationTesttestcase Failed]]>
+            </line>
+            <line>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id: session deleted as the browser has closed the connection
+from disconnected: Unable to receive message from renderer
+  (Session info: MicrosoftEdge=134.0.3124.72)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [319566453fba3adb5d719d5f2f6f1348, findElement {value=Organizations, using=link text}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 134.0.3124.72, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55143}, msedge: {msedgedriverVersion: 134.0.3124.72 (c81e2c3854de..., userDataDir: C:\Windows\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55143/devtoo..., se:cdpVersion: 134.0.3124.72, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 319566453fba3adb5d719d5f2f6f1348]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- OrganizationTest -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:TestPackage.OrganizationTest@31190526]" started-at="2025-03-17T13:13:38 IST" name="logout" finished-at="2025-03-17T13:13:38 IST" duration-ms="7" status="FAIL">
+          <exception class="org.openqa.selenium.json.JsonException">
+            <message>
+              <![CDATA[java.lang.reflect.InvocationTargetException
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [319566453fba3adb5d719d5f2f6f1348, actions {actions=[org.openqa.selenium.interactions.Sequence@74f649a7]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 134.0.3124.72, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55143}, msedge: {msedgedriverVersion: 134.0.3124.72 (c81e2c3854de..., userDataDir: C:\Windows\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55143/devtoo..., se:cdpVersion: 134.0.3124.72, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 319566453fba3adb5d719d5f2f6f1348]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [319566453fba3adb5d719d5f2f6f1348, actions {actions=[org.openqa.selenium.interactions.Sequence@74f649a7]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 134.0.3124.72, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55143}, msedge: {msedgedriverVersion: 134.0.3124.72 (c81e2c3854de..., userDataDir: C:\Windows\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55143/devtoo..., se:cdpVersion: 134.0.3124.72, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 319566453fba3adb5d719d5f2f6f1348
+at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:520)
+at org.openqa.selenium.json.JsonOutput.lambda$new$16(JsonOutput.java:182)
+at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:409)
+at org.openqa.selenium.json.JsonOutput.lambda$new$22(JsonOutput.java:204)
+at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:194)
+at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:556)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:546)
+at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:611)
+at org.openqa.selenium.json.JsonOutput.lambda$new$23(JsonOutput.java:204)
+at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:409)
+at org.openqa.selenium.json.JsonOutput.lambda$new$24(JsonOutput.java:222)
+at java.base/java.util.Map.forEach(Map.java:733)
+at org.openqa.selenium.json.JsonOutput.lambda$new$25(JsonOutput.java:217)
+at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:409)
+at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:400)
+at org.openqa.selenium.json.Json.toJson(Json.java:133)
+at org.openqa.selenium.json.Json.toJson(Json.java:119)
+at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:245)
+at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:111)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:178)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:631)
+at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:613)
+at org.openqa.selenium.interactions.Actions.perform(Actions.java:578)
+at utilities.GenericUtilities.MouseHoverOn(GenericUtilities.java:86)
+at ObjectRepository.HomePage.Signout(HomePage.java:56)
+at utilities.BaseClass.logout(BaseClass.java:53)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:802)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:778)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Suppressed: org.openqa.selenium.json.JsonException: Attempting to close incomplete json stream
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.json.JsonOutput.close(JsonOutput.java:431)
+at org.openqa.selenium.json.Json.toJson(Json.java:131)
+... 48 more
+Caused by: java.lang.reflect.InvocationTargetException
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:118)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:516)
+... 69 more
+Caused by: org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [319566453fba3adb5d719d5f2f6f1348, findElement {value=/html/body/table[1]/tbody/tr/td[3]/table/tbody/tr/td[2]/img, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 134.0.3124.72, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55143}, msedge: {msedgedriverVersion: 134.0.3124.72 (c81e2c3854de..., userDataDir: C:\Windows\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55143/devtoo..., se:cdpVersion: 134.0.3124.72, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 319566453fba3adb5d719d5f2f6f1348
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy12.getWrappedElement(Unknown Source)
+at org.openqa.selenium.interactions.PointerInput$Origin.asArg(PointerInput.java:259)
+at org.openqa.selenium.interactions.PointerInput$Move.encode(PointerInput.java:208)
+at org.openqa.selenium.interactions.Sequence.encode(Sequence.java:72)
+at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:81)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+... 71 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.json.JsonException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- TestPackage.OrganizationTest -->
+      <class name="TestPackage.AttributeTest">
+        <test-method is-config="true" signature="login()[pri:0, instance:TestPackage.AttributeTest@229f66ed]" started-at="2025-03-17T13:12:19 IST" name="login" finished-at="2025-03-17T13:12:28 IST" duration-ms="9251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="moveToCalendarPage()[pri:0, instance:TestPackage.AttributeTest@229f66ed]" started-at="2025-03-17T13:12:28 IST" name="moveToCalendarPage" finished-at="2025-03-17T13:12:35 IST" duration-ms="7012" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[moveToCalendarPagetestcase Started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- moveToCalendarPage -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:TestPackage.AttributeTest@229f66ed]" started-at="2025-03-17T13:12:35 IST" name="logout" finished-at="2025-03-17T13:12:38 IST" duration-ms="3208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:TestPackage.AttributeTest@229f66ed]" started-at="2025-03-17T13:12:38 IST" name="login" finished-at="2025-03-17T13:12:43 IST" duration-ms="4701" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="moveToContactsPage()[pri:0, instance:TestPackage.AttributeTest@229f66ed]" started-at="2025-03-17T13:12:43 IST" name="moveToContactsPage" finished-at="2025-03-17T13:12:54 IST" duration-ms="10875" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[moveToContactsPagetestcase Started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- moveToContactsPage -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:TestPackage.AttributeTest@229f66ed]" started-at="2025-03-17T13:12:54 IST" name="logout" finished-at="2025-03-17T13:12:57 IST" duration-ms="3333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:TestPackage.AttributeTest@229f66ed]" started-at="2025-03-17T13:12:57 IST" name="login" finished-at="2025-03-17T13:13:02 IST" duration-ms="5197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="moveToLeadsPage()[pri:0, instance:TestPackage.AttributeTest@229f66ed]" started-at="2025-03-17T13:13:02 IST" name="moveToLeadsPage" finished-at="2025-03-17T13:13:11 IST" duration-ms="8799" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[moveToLeadsPagetestcase Started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- moveToLeadsPage -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:TestPackage.AttributeTest@229f66ed]" started-at="2025-03-17T13:13:11 IST" name="logout" finished-at="2025-03-17T13:13:14 IST" duration-ms="3344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:TestPackage.AttributeTest@229f66ed]" started-at="2025-03-17T13:13:14 IST" name="login" finished-at="2025-03-17T13:13:24 IST" duration-ms="9201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="moveToOrganizationPage()[pri:0, instance:TestPackage.AttributeTest@229f66ed]" started-at="2025-03-17T13:13:24 IST" name="moveToOrganizationPage" finished-at="2025-03-17T13:13:29 IST" duration-ms="4929" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[moveToOrganizationPagetestcase Started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- moveToOrganizationPage -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:TestPackage.AttributeTest@229f66ed]" started-at="2025-03-17T13:13:29 IST" name="logout" finished-at="2025-03-17T13:13:33 IST" duration-ms="4366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- TestPackage.AttributeTest -->
+    </test> <!-- SuiteTest -->
+  </suite> <!-- Suite -->
+  <suite started-at="2025-03-17T13:08:17 IST" name="MainSuite" finished-at="2025-03-17T13:10:52 IST" duration-ms="154921">
+    <groups>
+      <group name="integration">
+        <method signature="AttributeTest.moveToLeadsPage()[pri:0, instance:TestPackage.AttributeTest@4c583ecf]" name="moveToLeadsPage" class="TestPackage.AttributeTest"/>
+        <method signature="AttributeTest.moveToOrganizationPage()[pri:0, instance:TestPackage.AttributeTest@4c583ecf]" name="moveToOrganizationPage" class="TestPackage.AttributeTest"/>
+      </group> <!-- integration -->
+      <group name="smoke">
+        <method signature="AttributeTest.moveToCalendarPage()[pri:0, instance:TestPackage.AttributeTest@4c583ecf]" name="moveToCalendarPage" class="TestPackage.AttributeTest"/>
+      </group> <!-- smoke -->
+      <group name="adhoc">
+        <method signature="AttributeTest.moveToContactsPage()[pri:0, instance:TestPackage.AttributeTest@4c583ecf]" name="moveToContactsPage" class="TestPackage.AttributeTest"/>
+      </group> <!-- adhoc -->
+    </groups>
+    <test started-at="2025-03-17T13:08:17 IST" name="Test" finished-at="2025-03-17T13:10:52 IST" duration-ms="154921">
+      <class name="TestPackage.ContactTest">
+        <test-method is-config="true" signature="login()[pri:0, instance:TestPackage.ContactTest@59662a0b]" started-at="2025-03-17T13:08:18 IST" name="login" finished-at="2025-03-17T13:08:25 IST" duration-ms="7413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="CreateContact(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestPackage.ContactTest@59662a0b]" started-at="2025-03-17T13:08:25 IST" name="CreateContact" data-provider="databaseContactDetails" finished-at="2025-03-17T13:08:44 IST" duration-ms="18491" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ms.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hannah]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sjk]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Self Generated]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Electronics]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Engineer]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[hannah@gmail.com]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[9897554236]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[CreateContacttestcase Started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CreateContact -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:TestPackage.ContactTest@59662a0b]" started-at="2025-03-17T13:08:44 IST" name="logout" finished-at="2025-03-17T13:08:48 IST" duration-ms="3792" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:TestPackage.ContactTest@59662a0b]" started-at="2025-03-17T13:08:48 IST" name="login" finished-at="2025-03-17T13:08:53 IST" duration-ms="4871" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="CreateContact(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestPackage.ContactTest@59662a0b]" started-at="2025-03-17T13:08:53 IST" name="CreateContact" data-provider="databaseContactDetails" finished-at="2025-03-17T13:09:10 IST" duration-ms="17261" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mr.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Harris]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[tjk]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Self Generated]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Mechanical]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Engineer]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[harris@gmail.com]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[9897567236]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[CreateContacttestcase Started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CreateContact -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:TestPackage.ContactTest@59662a0b]" started-at="2025-03-17T13:09:10 IST" name="logout" finished-at="2025-03-17T13:09:13 IST" duration-ms="3639" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:TestPackage.ContactTest@59662a0b]" started-at="2025-03-17T13:09:13 IST" name="login" finished-at="2025-03-17T13:09:18 IST" duration-ms="4782" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="CreateContact(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestPackage.ContactTest@59662a0b]" started-at="2025-03-17T13:09:18 IST" name="CreateContact" data-provider="databaseContactDetails" finished-at="2025-03-17T13:09:37 IST" duration-ms="18633" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ms.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Helen]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[tjk]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Self Generated]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[biomedical]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Engineer]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[helen@gmail.com]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[9877554236]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[CreateContacttestcase Started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CreateContact -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:TestPackage.ContactTest@59662a0b]" started-at="2025-03-17T13:09:37 IST" name="logout" finished-at="2025-03-17T13:09:40 IST" duration-ms="3490" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- TestPackage.ContactTest -->
+      <class name="TestPackage.AttributeTest">
+        <test-method is-config="true" signature="login()[pri:0, instance:TestPackage.AttributeTest@4c583ecf]" started-at="2025-03-17T13:09:40 IST" name="login" finished-at="2025-03-17T13:09:50 IST" duration-ms="9496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="moveToCalendarPage()[pri:0, instance:TestPackage.AttributeTest@4c583ecf]" started-at="2025-03-17T13:09:50 IST" name="moveToCalendarPage" finished-at="2025-03-17T13:09:55 IST" duration-ms="5596" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[moveToCalendarPagetestcase Started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- moveToCalendarPage -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:TestPackage.AttributeTest@4c583ecf]" started-at="2025-03-17T13:09:55 IST" name="logout" finished-at="2025-03-17T13:09:59 IST" duration-ms="3306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:TestPackage.AttributeTest@4c583ecf]" started-at="2025-03-17T13:09:59 IST" name="login" finished-at="2025-03-17T13:10:03 IST" duration-ms="4688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="moveToContactsPage()[pri:0, instance:TestPackage.AttributeTest@4c583ecf]" started-at="2025-03-17T13:10:03 IST" name="moveToContactsPage" finished-at="2025-03-17T13:10:12 IST" duration-ms="8843" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[moveToContactsPagetestcase Started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- moveToContactsPage -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:TestPackage.AttributeTest@4c583ecf]" started-at="2025-03-17T13:10:12 IST" name="logout" finished-at="2025-03-17T13:10:16 IST" duration-ms="3357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:TestPackage.AttributeTest@4c583ecf]" started-at="2025-03-17T13:10:16 IST" name="login" finished-at="2025-03-17T13:10:24 IST" duration-ms="8041" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="moveToLeadsPage()[pri:0, instance:TestPackage.AttributeTest@4c583ecf]" started-at="2025-03-17T13:10:24 IST" name="moveToLeadsPage" finished-at="2025-03-17T13:10:32 IST" duration-ms="8350" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[moveToLeadsPagetestcase Started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- moveToLeadsPage -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:TestPackage.AttributeTest@4c583ecf]" started-at="2025-03-17T13:10:32 IST" name="logout" finished-at="2025-03-17T13:10:36 IST" duration-ms="3492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:TestPackage.AttributeTest@4c583ecf]" started-at="2025-03-17T13:10:36 IST" name="login" finished-at="2025-03-17T13:10:44 IST" duration-ms="8530" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="moveToOrganizationPage()[pri:0, instance:TestPackage.AttributeTest@4c583ecf]" started-at="2025-03-17T13:10:44 IST" name="moveToOrganizationPage" finished-at="2025-03-17T13:10:49 IST" duration-ms="4588" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[moveToOrganizationPagetestcase Started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- moveToOrganizationPage -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:TestPackage.AttributeTest@4c583ecf]" started-at="2025-03-17T13:10:49 IST" name="logout" finished-at="2025-03-17T13:10:52 IST" duration-ms="3169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- TestPackage.AttributeTest -->
+    </test> <!-- Test -->
+  </suite> <!-- MainSuite -->
+</testng-results>

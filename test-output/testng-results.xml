@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[----Execution Started----]]>
+    </line>
+    <line>
+      <![CDATA[CreateContacttestcase Started]]>
+    </line>
+    <line>
+      <![CDATA[CreateContacttestcase Started]]>
+    </line>
+    <line>
+      <![CDATA[CreateContacttestcase Started]]>
+    </line>
+    <line>
+      <![CDATA[moveToCalendarPagetestcase Started]]>
+    </line>
+    <line>
+      <![CDATA[moveToContactsPagetestcase Started]]>
+    </line>
+    <line>
+      <![CDATA[moveToLeadsPagetestcase Started]]>
+    </line>
+    <line>
+      <![CDATA[moveToOrganizationPagetestcase Started]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-03-17T10:32:35 IST" name="MainSuite" finished-at="2025-03-17T10:35:05 IST" duration-ms="149776">
+    <groups>
+      <group name="integration">
+        <method signature="AttributeTest.moveToLeadsPage()[pri:0, instance:TestPackage.AttributeTest@1f59a598]" name="moveToLeadsPage" class="TestPackage.AttributeTest"/>
+        <method signature="AttributeTest.moveToOrganizationPage()[pri:0, instance:TestPackage.AttributeTest@1f59a598]" name="moveToOrganizationPage" class="TestPackage.AttributeTest"/>
+      </group> <!-- integration -->
+      <group name="smoke">
+        <method signature="AttributeTest.moveToCalendarPage()[pri:0, instance:TestPackage.AttributeTest@1f59a598]" name="moveToCalendarPage" class="TestPackage.AttributeTest"/>
+      </group> <!-- smoke -->
+      <group name="adhoc">
+        <method signature="AttributeTest.moveToContactsPage()[pri:0, instance:TestPackage.AttributeTest@1f59a598]" name="moveToContactsPage" class="TestPackage.AttributeTest"/>
+      </group> <!-- adhoc -->
+    </groups>
+    <test started-at="2025-03-17T10:32:35 IST" name="Test" finished-at="2025-03-17T10:35:05 IST" duration-ms="149776">
+      <class name="TestPackage.ContactTest">
+        <test-method is-config="true" signature="login(java.lang.String)[pri:0, instance:TestPackage.ContactTest@20d525]" started-at="2025-03-17T10:32:36 IST" name="login" finished-at="2025-03-17T10:33:10 IST" duration-ms="33990" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="CreateContact(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestPackage.ContactTest@20d525]" started-at="2025-03-17T10:33:10 IST" name="CreateContact" data-provider="databaseContactDetails" finished-at="2025-03-17T10:33:23 IST" duration-ms="12817" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ms.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hannah]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sjk]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Self Generated]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Electronics]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Engineer]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[hannah@gmail.com]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[9897554236]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[CreateContacttestcase Started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CreateContact -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:TestPackage.ContactTest@20d525]" started-at="2025-03-17T10:33:23 IST" name="logout" finished-at="2025-03-17T10:33:26 IST" duration-ms="2854" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login(java.lang.String)[pri:0, instance:TestPackage.ContactTest@20d525]" started-at="2025-03-17T10:33:26 IST" name="login" finished-at="2025-03-17T10:33:30 IST" duration-ms="4241" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="CreateContact(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestPackage.ContactTest@20d525]" started-at="2025-03-17T10:33:30 IST" name="CreateContact" data-provider="databaseContactDetails" finished-at="2025-03-17T10:33:43 IST" duration-ms="12752" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mr.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Harris]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[tjk]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Self Generated]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Mechanical]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Engineer]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[harris@gmail.com]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[9897567236]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[CreateContacttestcase Started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CreateContact -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:TestPackage.ContactTest@20d525]" started-at="2025-03-17T10:33:43 IST" name="logout" finished-at="2025-03-17T10:33:46 IST" duration-ms="2705" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login(java.lang.String)[pri:0, instance:TestPackage.ContactTest@20d525]" started-at="2025-03-17T10:33:46 IST" name="login" finished-at="2025-03-17T10:33:50 IST" duration-ms="4285" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="CreateContact(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestPackage.ContactTest@20d525]" started-at="2025-03-17T10:33:50 IST" name="CreateContact" data-provider="databaseContactDetails" finished-at="2025-03-17T10:34:03 IST" duration-ms="12955" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ms.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Helen]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[tjk]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Self Generated]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[biomedical]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Engineer]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[helen@gmail.com]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[9877554236]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[CreateContacttestcase Started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CreateContact -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:TestPackage.ContactTest@20d525]" started-at="2025-03-17T10:34:03 IST" name="logout" finished-at="2025-03-17T10:34:06 IST" duration-ms="2704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- TestPackage.ContactTest -->
+      <class name="TestPackage.AttributeTest">
+        <test-method is-config="true" signature="login(java.lang.String)[pri:0, instance:TestPackage.AttributeTest@1f59a598]" started-at="2025-03-17T10:34:06 IST" name="login" finished-at="2025-03-17T10:34:10 IST" duration-ms="4177" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="moveToCalendarPage()[pri:0, instance:TestPackage.AttributeTest@1f59a598]" started-at="2025-03-17T10:34:10 IST" name="moveToCalendarPage" finished-at="2025-03-17T10:34:17 IST" duration-ms="7083" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[moveToCalendarPagetestcase Started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- moveToCalendarPage -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:TestPackage.AttributeTest@1f59a598]" started-at="2025-03-17T10:34:17 IST" name="logout" finished-at="2025-03-17T10:34:20 IST" duration-ms="2828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login(java.lang.String)[pri:0, instance:TestPackage.AttributeTest@1f59a598]" started-at="2025-03-17T10:34:20 IST" name="login" finished-at="2025-03-17T10:34:24 IST" duration-ms="4219" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="moveToContactsPage()[pri:0, instance:TestPackage.AttributeTest@1f59a598]" started-at="2025-03-17T10:34:24 IST" name="moveToContactsPage" finished-at="2025-03-17T10:34:31 IST" duration-ms="7006" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[moveToContactsPagetestcase Started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- moveToContactsPage -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:TestPackage.AttributeTest@1f59a598]" started-at="2025-03-17T10:34:31 IST" name="logout" finished-at="2025-03-17T10:34:34 IST" duration-ms="2824" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login(java.lang.String)[pri:0, instance:TestPackage.AttributeTest@1f59a598]" started-at="2025-03-17T10:34:34 IST" name="login" finished-at="2025-03-17T10:34:41 IST" duration-ms="7000" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="moveToLeadsPage()[pri:0, instance:TestPackage.AttributeTest@1f59a598]" started-at="2025-03-17T10:34:41 IST" name="moveToLeadsPage" finished-at="2025-03-17T10:34:48 IST" duration-ms="7740" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[moveToLeadsPagetestcase Started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- moveToLeadsPage -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:TestPackage.AttributeTest@1f59a598]" started-at="2025-03-17T10:34:48 IST" name="logout" finished-at="2025-03-17T10:34:51 IST" duration-ms="2829" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login(java.lang.String)[pri:0, instance:TestPackage.AttributeTest@1f59a598]" started-at="2025-03-17T10:34:51 IST" name="login" finished-at="2025-03-17T10:34:56 IST" duration-ms="4291" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="moveToOrganizationPage()[pri:0, instance:TestPackage.AttributeTest@1f59a598]" started-at="2025-03-17T10:34:56 IST" name="moveToOrganizationPage" finished-at="2025-03-17T10:35:02 IST" duration-ms="6297" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[moveToOrganizationPagetestcase Started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- moveToOrganizationPage -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:TestPackage.AttributeTest@1f59a598]" started-at="2025-03-17T10:35:02 IST" name="logout" finished-at="2025-03-17T10:35:05 IST" duration-ms="2783" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- TestPackage.AttributeTest -->
+    </test> <!-- Test -->
+  </suite> <!-- MainSuite -->
+</testng-results>
